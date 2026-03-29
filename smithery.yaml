@@ -1,0 +1,15 @@
+startCommand:
+  type: http
+  url: https://coven-mission-control-production.up.railway.app/mcp
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        title: COVEN API Key
+        description: Optional. Get one at covenai.io/developers for audit orders and monitoring.
+    required: []
+  exampleConfig:
+    apiKey: "coven_live_..."
+  headers:
+    Authorization: "Bearer {{apiKey}}"
