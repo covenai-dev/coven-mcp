@@ -5,7 +5,7 @@
 ## Endpoint
 
 ```
-https://coven-mission-control-production.up.railway.app/mcp
+https://api.covenai.io/mcp
 ```
 
 ## Tools
@@ -31,7 +31,7 @@ Add to your `claude_desktop_config.json`:
 {
   "mcpServers": {
     "coven-ai": {
-      "url": "https://coven-mission-control-production.up.railway.app/mcp",
+      "url": "https://api.covenai.io/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_COVEN_API_KEY"
       }
@@ -48,7 +48,7 @@ Add to `.cursor/mcp.json`:
 {
   "mcpServers": {
     "coven-ai": {
-      "url": "https://coven-mission-control-production.up.railway.app/mcp",
+      "url": "https://api.covenai.io/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_COVEN_API_KEY"
       }

@@ -4,11 +4,11 @@
  * This package points to the hosted COVEN AI MCP endpoint.
  * No local installation needed — the server runs remotely.
  * 
- * Endpoint: https://coven-mission-control-production.up.railway.app/mcp
+ * Endpoint: https://api.covenai.io/mcp
  * Auth: Bearer token (get one at covenai.io/developers)
  */
 
-export const MCP_ENDPOINT = "https://coven-mission-control-production.up.railway.app/mcp";
+export const MCP_ENDPOINT = "https://api.covenai.io/mcp";
 export const MCP_VERSION = "1.1.0";
 export const TOOLS = [
   "scan_website",
