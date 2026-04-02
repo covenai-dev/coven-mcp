@@ -20,7 +20,7 @@
   "homepage": "https://covenai.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/covenai-dev/coven-mission-control"
+    "url": "https://github.com/covenai-dev/coven-mcp"
   },
   "files": ["index.js", "README.md"]
 }
